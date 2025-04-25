@@ -26,8 +26,8 @@ suggested_params = algod_client.suggested_params()
 payment_txn = transaction.PaymentTxn(
     sender=address,
     sp=suggested_params,
-    amt=util.algos_to_microalgos(0.5),
-    receiver="XXTICPB6WORBRVTXGBSNTLTUA2ST2EN5XMAVZPRTGY4XFFQXEBLQEPEMZM"
+    amt=util.algos_to_microalgos(9),
+    receiver="RK6K3SMBBNVUH3CZIQNHB4EEDOQSLZHYBLJPSDSBYIQN75RU5VUVWQXGVA"
 )
 
 # Sign the transaction
